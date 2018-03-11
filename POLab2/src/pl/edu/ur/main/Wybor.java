@@ -10,7 +10,7 @@ public class Wybor {
     }
     
     public int wybierzZad(){
-        System.out.println("Wybierz zadanie wpisując jego numer\nZad.1 - [1]\nZad.2 - [2]\nZad.3 - [3]\nZad.4 - [4]\nZad.5 - [5]\nZad.6 - [6]\nZad.7 - [7]");
+        System.out.println("Wybierz zadanie wpisując jego numer\nZad.1 - [1]\nZad.2 - [2]\nZad.3 - [3]\nZad.4 - [4]\nZad.5 - [5]\nZad.6 - [6]\nZad.7 - [7]\nZakończ program - [0]");
         i=scan.nextInt();
         return i;
     }

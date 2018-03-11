@@ -10,7 +10,10 @@ public class Main {
         Zad7 zadanie7 = new Zad7();
         Wybor wybierz = new Wybor();
         int i;
-        switch(wybierz.wybierzZad()){
+        do{
+        switch(i=wybierz.wybierzZad()){
+            case 0:
+                break;
             case 3:
                 i=wybierz.czyLosowe();
                 if(i==1){
@@ -40,11 +43,13 @@ public class Main {
                 break;
             case 7:
                 zadanie7.lista();
+                zadanie7.sortowanie();
                 break;
             default:
                 System.out.println("Zadanie nie zostało wykonane");
                 break;
         }
+    }while(i!=0);
     }
     
 }
